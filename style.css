@@ -38,3 +38,14 @@ a:hover { /*passar o mouse por cima, a letra muda a cor*/
 color: red;
 }
 
+.imagem {
+    border-style: solid;
+    border-width: 07px;
+    border-color:palevioletred;
+}
+
+img {
+    max-width: 100%;
+} /*largura da tela sempre diminuindo e não acabando*/
+
+
