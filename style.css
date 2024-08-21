@@ -28,8 +28,8 @@ h2{
 ul{
     list-style: none; /*remover os pontos*/
 }
-li {
-    display: list-item; /*deixar linha na horizontal*/
+li.barraNavegacao {
+    display: inline; /*deixar linha na horizontal*/
     padding: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
