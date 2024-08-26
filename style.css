@@ -45,10 +45,25 @@ color: red;
 }
 
 img {
-    max-width: 100%;
+    max-width: 200%;
 } /*largura da tela sempre diminuindo e não acabando*/
 
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
 
+.galeria img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+}
 
 
 
